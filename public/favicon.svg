@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Signature Coral Gradient matching portfolio primary theme #F4845F -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A65" />
+      <stop offset="50%" stop-color="#F4845F" />
+      <stop offset="100%" stop-color="#DE431D" />
+    </linearGradient>
+
+    <!-- Bezel highlight -->
+    <linearGradient id="bezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Drop shadow for depth and separation -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.8" flood-color="#551200" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Base with smooth curvature -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)" />
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="none" stroke="url(#bezel)" stroke-width="1.5" />
+
+  <!-- Monogram 'S': Perfectly balanced geometric bezier stroke -->
+  <path d="M 43.5 21 C 43.5 15.5 38.5 13 32 13 C 24.5 13 20 17 20 22.5 C 20 31.5 44 29.5 44 41.5 C 44 47 39.5 51 32 51 C 25.5 51 20.5 48.5 20.5 43" 
+        fill="none" 
+        stroke="#FFFFFF" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        filter="url(#shadow)" />
+</svg>
